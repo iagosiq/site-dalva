@@ -18,6 +18,7 @@
 }
 nav {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
+    z-index: 1000;
 }
 .menu {
     position: relative;
@@ -69,7 +70,7 @@ nav {
 }
 header {
     background-color: #72888E;
-    padding-bottom: 1px;
+    padding-bottom: 15px;
     padding-top: 10px;
     top: 0;
     z-index: 999;
