@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
+}
+.menu {
+    position: relative;
+    background-color: #232325;
+    width: 100vw;
+    margin: auto;
+    border-bottom: 1px solid #BAAE95;
+}
+.menu_button {
+    text-align: center;
+    color: #BAAE95;
+}
+.menu_option {
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: 100vw;
+    border-bottom: 1px solid #BAAE95;
+}
+.link {
+    color: #BAAE95;
+    text-decoration: none;
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    border-top: 1px solid #BAAE95;
+    padding: 10px;
+}
+.link1 {
+    color: #BAAE95;
+    text-decoration: none;
+}
+#ultima_op {
+    border-bottom: 1px solid #BAAE95;
+}
+.link:hover {
+    background-color: #baae9523;
+}
+.link1:hover {
+    color: #232325;
+}
+.menu:hover .menu_option {
+    display: block;
+    animation: slideDown 0.5s ease;
+    background-color: #232325;
+}
