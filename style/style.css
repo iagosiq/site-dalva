@@ -22,7 +22,7 @@ nav {
 }
 .menu {
     position: relative;
-    background-color: #1D464E;
+    background-color: #657F85;
     width: 100vw;
     margin: auto;
     border-bottom: 1px solid #ECCDCA;
@@ -58,7 +58,7 @@ nav {
     border-bottom: 1px solid #B78F50;
 }
 .link:hover {
-    background-color: #122b30;
+    background-color: #85a8af;
 }
 .link1:hover {
     color: #c6aba8;
@@ -66,7 +66,7 @@ nav {
 .menu:hover .menu_option {
     display: block;
     animation: slideDown 0.5s ease;
-    background-color: #1D464E;
+    background-color: #657F85;
 }
 header {
     background-color: #99a6a8;
