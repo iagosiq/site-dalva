@@ -92,7 +92,7 @@ header {
     font-size: 1.2em;
     text-align: center;
     font-family: 'Tangerine', cursive;
-    color: #919191;
+    color: #D7D7D7;
 }
 #cabecalio {
     width: 400px;
@@ -123,5 +123,5 @@ article {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
-    color: #16343a;
+    color: #657F85;
 }
