@@ -25,33 +25,33 @@ nav {
     background-color: #1D464E;
     width: 100vw;
     margin: auto;
-    border-bottom: 1px solid #B78F50;
-    border-top: 1px solid#B78F50;
+    border-bottom: 1px solid #ECCDCA;
+    border-top: 1px solid#ECCDCA;
     position: fixed;
     top: 188px;
 }
 .menu_button {
     text-align: center;
-    color: #B78F50;
+    color: #ECCDCA;
 }
 .menu_option {
     position: absolute;
     top: 100%;
     display: none;
     width: 100vw;
-    border-bottom: 1px solid #B78F50;
+    border-bottom: 1px solid #ECCDCA;
 }
 .link {
-    color: #B78F50;
+    color: #ECCDCA;
     text-decoration: none;
     position: relative;
     width: 100vw;
     text-align: center;
-    border-top: 1px solid #B78F50;
+    border-top: 1px solid #ECCDCA;
     padding: 10px;
 }
 .link1 {
-    color: #B78F50;
+    color: #ECCDCA;
     text-decoration: none;
 }
 #ultima_op {
@@ -61,7 +61,7 @@ nav {
     background-color: #122b30;
 }
 .link1:hover {
-    color: #f3bf6a;
+    color: #c6aba8;
 }
 .menu:hover .menu_option {
     display: block;
@@ -104,7 +104,7 @@ body {
 #fundo {
     height: 70vh;
     position: fixed;
-    color: #122b30;
+    opacity: 0.3;
 }
 #boxfundo {
     width: 37vw;
@@ -114,7 +114,7 @@ body {
     top: 25px;
 }
 #boxtexto {
-    background-color: #b79050c5;
+    background-color: #eccdca97;
     width: 350px;
     margin: auto;
     margin-top: 210px;
