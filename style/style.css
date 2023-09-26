@@ -28,7 +28,7 @@ nav {
     border-bottom: 1px solid #B78F50;
     border-top: 1px solid#B78F50;
     position: fixed;
-    top: 167px;
+    top: 188px;
 }
 .menu_button {
     text-align: center;
@@ -69,7 +69,7 @@ nav {
     background-color: #1D464E;
 }
 header {
-    background-color: #72888E;
+    background-color: #99a6a8;
     padding-bottom: 15px;
     padding-top: 10px;
     top: 0;
@@ -78,19 +78,19 @@ header {
     position: fixed;
 }
 #estrela {
-    height: 150px;
-    width: 150px;
-    text-align: center;
+    height: 100px;
+    width: 100px;
 }
 #cestrela {
     margin: 0px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
 #titulo {
-    margin-top: -98px;
-    margin-bottom: 53px;
-    margin-left: 155px;
+    margin-top: 7px;
+    font-size: 1.2em;
+    text-align: center;
     font-family: 'Tangerine', cursive;
     color: #153339;
 }
@@ -117,7 +117,7 @@ body {
     background-color: #b79050c5;
     width: 350px;
     margin: auto;
-    margin-top: 195px;
+    margin-top: 210px;
 }
 article {
     padding: 20px;
