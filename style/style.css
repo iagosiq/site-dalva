@@ -10,6 +10,7 @@
     }
 }
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 * {
     padding: 0px;
@@ -20,46 +21,103 @@ nav {
 }
 .menu {
     position: relative;
-    background-color: #232325;
+    background-color: #1D464E;
     width: 100vw;
     margin: auto;
-    border-bottom: 1px solid #BAAE95;
+    border-bottom: 1px solid #B78F50;
+    border-top: 1px solid#B78F50;
+    position: fixed;
+    top: 167px;
 }
 .menu_button {
     text-align: center;
-    color: #BAAE95;
+    color: #B78F50;
 }
 .menu_option {
     position: absolute;
     top: 100%;
     display: none;
     width: 100vw;
-    border-bottom: 1px solid #BAAE95;
+    border-bottom: 1px solid #B78F50;
 }
 .link {
-    color: #BAAE95;
+    color: #B78F50;
     text-decoration: none;
     position: relative;
     width: 100vw;
     text-align: center;
-    border-top: 1px solid #BAAE95;
+    border-top: 1px solid #B78F50;
     padding: 10px;
 }
 .link1 {
-    color: #BAAE95;
+    color: #B78F50;
     text-decoration: none;
 }
 #ultima_op {
-    border-bottom: 1px solid #BAAE95;
+    border-bottom: 1px solid #B78F50;
 }
 .link:hover {
-    background-color: #baae9523;
+    background-color: #122b30;
 }
 .link1:hover {
-    color: #232325;
+    color: #f3bf6a;
 }
 .menu:hover .menu_option {
     display: block;
     animation: slideDown 0.5s ease;
-    background-color: #232325;
+    background-color: #1D464E;
+}
+header {
+    background-color: #72888E;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+}
+#estrela {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+#cestrela {
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+}
+#titulo {
+    margin-top: -98px;
+    margin-bottom: 53px;
+    margin-left: 155px;
+    font-family: 'Tangerine', cursive;
+    color: #153339;
+}
+#cabecalio {
+    width: 400px;
+    margin: auto;
+}
+body {
+    background-color: #2e535b91;
+}
+#fundo {
+    height: 70vh;
+    position: fixed;
+    color: #122b30;
+}
+#boxfundo {
+    width: 37vw;
+    margin: auto;
+    position: relative;
+    z-index: -1;  
+    top: 25px;
+}
+#boxtexto {
+    background-color: #b79050c5;
+    width: 350px;
+    margin: auto;
+    margin-top: 195px;
+}
+article {
+    padding: 20px;
 }
