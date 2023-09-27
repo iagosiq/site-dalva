@@ -1,3 +1,5 @@
+// toque para menu hambúrguer
+
 function abrir_menu() {
     var options = document.getElementById('menu-options');
 
@@ -7,3 +9,17 @@ function abrir_menu() {
         options.style.display = 'none';
     }
 }
+
+// scroll reveal
+
+window.sr = ScrollReveal({reset: true})
+
+sr.reveal('.titulo1', {
+    duration: 2000,
+    rotate: {y:1000}
+})
+sr.reveal('.titulo2', {
+    duration: 2000,
+    rotate: {y:1000}
+})
+sr.reveal('#fundo1')

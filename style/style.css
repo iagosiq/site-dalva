@@ -119,6 +119,9 @@ body {
     margin: 0px;
     margin-top: 209px;
     padding: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
+    border-bottom: 1px solid #ECCDCA;
+    border-top: 1px solid#ECCDCA;
 }
 h1 {
     padding-top: 3px;
@@ -135,7 +138,15 @@ h1 {
 article {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.7em;
     color: #657F85;
     padding-top: 0px;
+}
+p {
+    padding-top: 10px;
+    text-indent: 1.5em;
+}
+
+.titulo1, .titulo2, #fundo1 {
+    visibility: hidden;
 }
