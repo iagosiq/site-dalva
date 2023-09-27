@@ -92,7 +92,7 @@ header {
     font-size: 1.2em;
     text-align: center;
     font-family: 'Tangerine', cursive;
-    color: #E0B5B6;
+    color: #eccdca;
 }
 #cabecalio {
     width: 400px;
@@ -101,27 +101,41 @@ header {
 body {
     background-color: #2e535b63;
 }
-#fundo {
+#fundo1 {
     height: 70vh;
     position: fixed;
     opacity: 0.3;
 }
-#boxfundo {
+#boxfundo1 {
     width: 37vw;
     margin: auto;
     position: relative;
     z-index: -1;  
     top: 25px;
 }
+.boxh1 {
+    width: 100%;
+    background-color: #657F85;
+    margin: 0px;
+    margin-top: 209px;
+    padding: 0px;
+}
+h1 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    color: #eccdca;
+    font-family: 'Tangerine', cursive;
+}
 #boxtexto {
     background-color: #eccdca97;
     width: 350px;
     margin: auto;
-    margin-top: 210px;
 }
 article {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     color: #657F85;
+    padding-top: 0px;
 }
