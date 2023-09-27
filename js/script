@@ -22,4 +22,8 @@ sr.reveal('.titulo2', {
     duration: 2000,
     rotate: {y:1000}
 })
-sr.reveal('#fundo1')
+sr.reveal('#boxtexto', {
+    duration: 1000,
+    rotate: {x:5}
+})
+
