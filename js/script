@@ -45,10 +45,6 @@ sr.reveal('.titulo4', {
     duration: 2000,
     rotate: {y:1000}
 })
-sr.reveal('#boxtexto', {
-    duration: 1000,
-    rotate: {x:5}
-})
 
 // Navegação na página
 
