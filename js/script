@@ -1,9 +1,24 @@
 // toque para menu hambúrguer
 
+// function abrir_menu() {
+//     var options = document.getElementById('menu-options');
+
+//     if (options.style.display === 'none') {
+//         options.style.display = 'block';
+
+//         document.body.addEventListener('click', fechar_menu_fora);
+//     } else {
+//         options.style.display = 'none';
+
+//         document.body.removeEventListener('click', fechar_menu_fora);
+//     }
+// }
+
+// toque para menu hambúrguer
 function abrir_menu() {
     var options = document.getElementById('menu-options');
 
-    if (options.style.display === 'none') {
+    if (options.style.display === 'none' || options.style.display === '') {
         options.style.display = 'block';
 
         document.body.addEventListener('click', fechar_menu_fora);
