@@ -155,3 +155,7 @@ p {
 .titulo1, .titulo2, .titulo3, .titulo4, #boxtexto {
     visibility: hidden;
 }
+
+#ancora1, #ancora2, #ancora3, #ancora4 {   
+    padding-bottom: 209px;
+}
