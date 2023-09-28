@@ -16,14 +16,63 @@ window.sr = ScrollReveal({reset: true})
 
 sr.reveal('.titulo1', {
     duration: 2000,
-    rotate: {y:1000}
+    // rotate: {y:1000}
 })
 sr.reveal('.titulo2', {
     duration: 2000,
-    rotate: {y:1000}
+    // rotate: {y:1000}
+})
+sr.reveal('.titulo3', {
+    duration: 2000,
+    // rotate: {y:1000}
+})
+sr.reveal('.titulo4', {
+    duration: 2000,
+    // rotate: {y:1000}
 })
 sr.reveal('#boxtexto', {
     duration: 1000,
     rotate: {x:5}
 })
+
+// Navegação na página
+
+// $(document).ready(function() {
+//     $('a[href^="#"]').on('click', function(event) {
+//       event.preventDefault();
+
+//       var target = this.hash;
+//       var $target = $(target);
+
+//       $('html, body').stop().animate({
+//         'scrollTop': $target.offset().top
+//       }, 900, 'swing', function() {
+//         window.location.hash = target;
+//       });
+//     });
+//   });
+
+
+
+$(document).ready(function() {
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        // Ajuste para compensar a altura do cabeçalho
+        var offset = $('#titulo').height() + 142; // ajuste conforme necessário
+
+        // Obtenha a posição superior do destino, considerando o offset
+        var targetPosition = $target.offset().top - offset;
+
+        // Execute a animação
+        $('html, body').animate({
+            'scrollTop': targetPosition
+        }, 900, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+});
 

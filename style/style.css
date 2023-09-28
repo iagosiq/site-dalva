@@ -12,6 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
+/* html {
+    scroll-behavior: smooth;
+} */
 * {
     padding: 0px;
     margin: 0px;
@@ -101,6 +104,9 @@ header {
 body {
     background-color: #2e535b63;
 }
+main {
+    margin-top: 209px;
+}
 #fundo1 {
     height: 70vh;
     position: fixed;
@@ -117,7 +123,6 @@ body {
     width: 100%;
     background-color: #657F85;
     margin: 0px;
-    margin-top: 209px;
     padding: 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
     border-bottom: 1px solid #ECCDCA;
@@ -147,6 +152,6 @@ p {
     text-indent: 1.5em;
 }
 
-.titulo1, .titulo2, #boxtexto {
+.titulo1, .titulo2, .titulo3, .titulo4, #boxtexto {
     visibility: hidden;
 }
