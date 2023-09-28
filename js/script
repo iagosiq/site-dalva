@@ -48,47 +48,44 @@ sr.reveal('.titulo4', {
 
 // Navegação na página
 
+// $(document).ready(function() {
+//     $('a[href^="#"]').on('click', function(event) {
+//       event.preventDefault();
+
+//       var target = this.hash;
+//       var $target = $(target);
+
+//       $('html, body').stop().animate({
+//         'scrollTop': $target.offset().top
+//       }, 900, 'swing', function() {
+//         window.location.hash = target;
+//         fechar_menu();
+//       });
+//     });
+//     $('.link').on('click', function() {
+//         fechar_menu();
+//     });
+// });
+
+// Navegação na página
 $(document).ready(function() {
     $('a[href^="#"]').on('click', function(event) {
-      event.preventDefault();
+        event.preventDefault();
 
-      var target = this.hash;
-      var $target = $(target);
+        var target = this.hash;
+        var $target = $(target);
 
-      $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-      }, 900, 'swing', function() {
-        window.location.hash = target;
-        fechar_menu();
-      });
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function() {
+            window.location.hash = target;
+
+            // Fechar o menu ao clicar em um item
+            fechar_menu();
+        });
     });
     $('.link').on('click', function() {
         fechar_menu();
     });
 });
-
-
-// $(document).ready(function() {
-//     $('a[href^="#"]').on('click', function(event) {
-//         event.preventDefault();
-
-//         var target = this.hash;
-//         var $target = $(target);
-
-//         // Ajuste para compensar a altura do cabeçalho
-//         var offset = $('#titulo').height() + 142; // ajuste conforme necessário
-
-//         // Obtenha a posição superior do destino, considerando o offset
-//         var targetPosition = $target.offset().top - offset;
-
-//         // Execute a animação
-//         $('html, body').animate({
-//             'scrollTop': targetPosition
-//         }, 900, 'swing', function() {
-//             window.location.hash = target;
-//         });
-//     });
-// });
-
-// resize
 
