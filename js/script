@@ -48,10 +48,13 @@ $(document).ready(function() {
         'scrollTop': $target.offset().top
       }, 900, 'swing', function() {
         window.location.hash = target;
+        fechar_menu();
       });
     });
-  });
-
+    $('.link').on('click', function() {
+        fechar_menu();
+    });
+});
 
 
 // $(document).ready(function() {
