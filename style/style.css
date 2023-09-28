@@ -117,7 +117,7 @@ main {
     height: 70vh;
     position: fixed;
     opacity: 0.3;
-    z-index: -7;
+    z-index: 0;
 } */
 #boxfundo1 {
     width: 37vw;
