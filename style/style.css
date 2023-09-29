@@ -163,3 +163,24 @@ p {
 #ancora1, #ancora2, #ancora3, #ancora4 {   
     padding-bottom: 209px;
 }
+
+#img_insta, #img_tt, #img_wpp {
+    height: 25px;
+    margin: 10px;
+}
+#foot {
+    border: 1px solid #ECCDCA;
+}
+footer {
+    text-align: center;
+    height: 110px;
+    padding: 30px;
+    background-color: #ADBCBE;
+}
+#link_ihelph {
+    color: black;
+    text-decoration: none;
+}
+#link_ihelph:hover {
+    text-decoration: underline;
+}
