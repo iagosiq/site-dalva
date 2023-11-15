@@ -12,6 +12,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
+
+:root {
+    --fundo: #ffffff;
+    --titulo: #DE9C69;
+    --boxTitulo: #000000;
+    --boxTexto: #de9c6965;
+    --texto: #000000;
+    --menuLinkHover: #967459;
+    --menuOptionHover: #383737;
+}
+
 /* html {
     scroll-behavior: smooth;
 } */
@@ -25,54 +36,54 @@ nav {
 }
 .menu {
     position: relative;
-    background-color: #657F85;
+    background-color: var(--boxTitulo);
     width: 100vw;
     margin: auto;
-    border-bottom: 1px solid #ECCDCA;
-    border-top: 1px solid#ECCDCA;
+    border-bottom: 1px solid var(--titulo);
+    border-top: 1px solid var(--titulo);
     position: fixed;
     top: 178px;
 }
 .menu_button {
     text-align: center;
-    color: #ECCDCA;
+    color: var(--titulo);
 }
 .menu_option {
     position: absolute;
     top: 100%;
     display: none;
     width: 100vw;
-    border-bottom: 1px solid #ECCDCA;
+    border-bottom: 1px solid var(--titulo);
 }
 .link {
-    color: #ECCDCA;
+    color: var(--titulo);
     text-decoration: none;
     position: relative;
     width: 100vw;
     text-align: center;
-    border-top: 1px solid #ECCDCA;
+    border-top: 1px solid var(--titulo);
     padding: 10px;
 }
 .link1 {
-    color: #ECCDCA;
+    color: var(--titulo);
     text-decoration: none;
 }
 #ultima_op {
-    border-bottom: 1px solid #B78F50;
+    border-bottom: 1px solid var(--titulo);
 }
 .link:hover {
-    background-color: #85a8af;
+    background-color: var(--menuOptionHover);
 }
 .link1:hover {
-    color: #c6aba8;
+    color: var(--menuLinkHover);
 }
 .menu:hover .menu_option {
     display: block;
     animation: slideDown 0.5s ease;
-    background-color: #657F85;
+    background-color: var(--boxTitulo);
 }
 header {
-    background-color: #ADBCBE;
+    background-color: var(--fundo);
     padding-bottom: 15px;
     padding-top: 10px;
     top: 0;
@@ -95,14 +106,14 @@ header {
     font-size: 1.2em;
     text-align: center;
     font-family: 'Tangerine', cursive;
-    color: #eccdca;
+    color: var(--titulo);
 }
 #cabecalio {
     width: 400px;
     margin: auto;
 }
 body {
-    background-color: #2e535b63;
+    background-color: var(--fundo);
 }
 main {
     margin-top: 209px;
@@ -122,12 +133,12 @@ main {
 }
 .boxh1 {
     width: 100%;
-    background-color: #657F85;
+    background-color: var(--boxTitulo);
     margin: 0px;
     padding: 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
-    border-bottom: 1px solid #ECCDCA;
-    border-top: 1px solid#ECCDCA;
+    border-bottom: 1px solid var(--titulo);
+    border-top: 1px solid var(--titulo);
 
     position: relative;
     z-index: 1;
@@ -136,11 +147,11 @@ h1 {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 20px;
-    color: #eccdca;
+    color: var(--titulo);
     font-family: 'Tangerine', cursive;
 }
 #boxtexto {
-    background-color: #eccdca97;
+    background-color: var(--boxTexto);
     width: 350px;
     margin: auto;
 }
@@ -148,7 +159,7 @@ article {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.7em;
-    color: #657F85;
+    color: var(--texto);
     padding-top: 0px;
 }
 p {
@@ -169,13 +180,13 @@ p {
     margin: 10px;
 }
 #foot {
-    border: 1px solid #ECCDCA;
+    border: 1px solid var(--titulo);
 }
 footer {
     text-align: center;
     height: 110px;
     padding: 30px;
-    background-color: #ADBCBE;
+    background-color: rgba(139, 139, 139, 0.366);
 }
 #link_ihelph {
     color: black;
