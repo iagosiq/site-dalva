@@ -15,12 +15,12 @@
 
 :root {
     --fundo: #ffffff;
-    --titulo: #DE9C69;
-    --boxTitulo: #000000;
-    --boxTexto: #de9c6965;
-    --texto: #000000;
-    --menuLinkHover: #967459;
-    --menuOptionHover: #383737;
+    --titulo: #003C4B;
+    --boxTitulo: #E8D6BE;
+    --boxTexto: #e8d6be7e;
+    --texto: #003C4B;
+    --menuLinkHover: #000000;
+    --menuOptionHover: #f4dec4;
 }
 
 /* html {
