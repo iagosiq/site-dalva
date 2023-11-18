@@ -175,9 +175,17 @@ p {
     padding-bottom: 209px;
 }
 
-#img_insta, #img_tt, #img_wpp {
+#img_tt {
     height: 25px;
     margin: 10px;
+}
+#img_insta, #img_wpp {
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#img_insta {
+    margin-left: 20px;
 }
 #foot {
     border: 1px solid var(--titulo);
