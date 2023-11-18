@@ -203,3 +203,12 @@ footer {
 #link_ihelph:hover {
     text-decoration: underline;
 }
+
+#wpp_fixed {
+    height: 4em;
+    width: 4em;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    z-index: 1;
+}
